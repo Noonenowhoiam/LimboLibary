@@ -1,0 +1,11 @@
+name: LimboLibrary
+version: 1.0
+main: me.salman.limboLibary.Main
+api-version: 1.20
+depend: [ ProtocolLib ]
+commands:
+  limbo:
+    description: Teleport to the limbo world or return to the normal world.
+    usage: /<command> [return]
+    permission: limbo.command
+    permission-message: "You do not have permission to use this command."
